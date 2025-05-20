@@ -12,10 +12,16 @@ public class UserInput {
 		// create object of scanner class
 		Scanner myObj = new Scanner(System.in);
 		
+		// string input
 		String name = myObj.nextLine();
+		
+		// int input
 		int age = myObj.nextInt();
+		
+		//double input
 		double salary = myObj.nextDouble();
-		System.out.println("Name is : " + name + "," + " age is :" + age + "," + "salary is:" + salary);
+		
+		System.out.println("Name is : " + name + "," + " age is :" + age + "," + "salary is :" + salary);
 	}
 
 }
