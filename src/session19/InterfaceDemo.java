@@ -14,7 +14,7 @@ interface showName
 
 interface showAge
 {
-	void ShowAge(String name); //methods are abstract
+	void ShowAge(int age); //methods are abstract
 	
 }
 
